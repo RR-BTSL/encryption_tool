@@ -1,3 +1,9 @@
 ### Intellij Products ###
 /.idea/*
 !/.idea/runConfigurations
+
+/dist
+/build
+
+# ignore spec files
+*.spec
