@@ -4,7 +4,9 @@ A simple standalone command-line tool for encrypting and decrypting text using s
 
 ## 📖 Prerequisites
 
-### Install [uv](https://docs.astral.sh/uv/):
+After cloning the repository, you need to install [uv](https://docs.astral.sh/uv/) and the required dependencies.
+
+### Installling uv
 
 Windows:
 ```bash
