@@ -1,5 +1,5 @@
 from cryptography.fernet import Fernet
-from ThreadSafeSingleton import ThreadSafeSingleton
+from src.ThreadSafeSingleton import ThreadSafeSingleton
 from functools import wraps
 
 

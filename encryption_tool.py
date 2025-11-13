@@ -2,7 +2,7 @@ import argparse
 import sys
 
 from cryptography.fernet import Fernet
-from SecretsManager import SecretsManager
+from src.SecretsManager import SecretsManager
 
 
 def main() -> None:
