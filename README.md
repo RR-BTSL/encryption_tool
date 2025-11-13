@@ -1,36 +1,36 @@
-# Encryption Tool
+# 🔑 Encryption_Tool
 
-## Prerequisites
+A simple command-line tool for encrypting and decrypting text using symmetric encryption.
+
+## 📖 Prerequisites
 
 Install dependencies:
 
-**pip:**
+### pip:
 
-1.
-   ```bash
-   pip install cryptography pyinstaller
-   ```
+```bash
+pip install cryptography pyinstaller
+```
 
-**Or using [uv](https://docs.astral.sh/uv/)!**
+### Or using [uv](https://docs.astral.sh/uv/)!
 
-1. **Install uv:**
+#### Install uv:
 
-   Windows:
-   ```bash
-   powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-   ```
+Windows:
+```PowerShell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
 
-   Linux/macOS:
-   ```bash
-   curl -LsSf https://astral.sh/uv/install.sh | sh
-   ```
+Linux/macOS:
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+#### Install dependencies
+```bash
+uv sync
+```
 
-2. **Install dependencies:**
-   ```bash
-   uv sync
-   ```
-
-## Build From Source
+## 📖 Build From Source
 
 Run the following command to create a single-file executable:
 
@@ -40,7 +40,7 @@ pyinstaller --onefile encryption_tool.py
 
 This will generate a standalone executable under `dist/` called `encryption_tool`.
 
-## Usage
+## 📖 Usage
 
 See the --help option for usage instructions:
 
