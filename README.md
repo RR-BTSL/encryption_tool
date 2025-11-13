@@ -25,7 +25,7 @@ uv sync
 Run the following command to create a single-file executable:
 
 ```bash
-uvx pyinstaller --onefile encryption_tool.py
+uv run pyinstaller encryption_tool.spec
 ```
 
 ℹ️ This will generate a standalone executable under `dist/` called `encryption_tool`.
