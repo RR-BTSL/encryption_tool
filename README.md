@@ -49,3 +49,5 @@ If you want to, you can also just run encryption_tool.py directly with Python:
 ```bash
 python encryption_tool.py --help
 ```
+
+You can also download pre-built binaries from the [Releases](https://github.com/RR-BTSL/encryption_tool/releases) section.
