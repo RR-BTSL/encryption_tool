@@ -1,36 +1,37 @@
-# Encryption Tool
+# 🔑 Encryption_Tool
 
-## Prerequisites
+A simple command-line tool for encrypting and decrypting text using symmetric encryption.
+Using python's Fernet 2-=
 
-Install dependencies:
+## 📖 Prerequisites
 
-**pip:**
+To Install dependencies use pip or uv:
 
-1.
-   ```bash
-   pip install cryptography pyinstaller
-   ```
+### pip:
 
-**Or using [uv](https://docs.astral.sh/uv/)!**
+```bash
+pip install cryptography pyinstaller
+```
 
-1. **Install uv:**
+### [uv](https://docs.astral.sh/uv/)
 
-   Windows:
-   ```bash
-   powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-   ```
+#### Install uv:
 
-   Linux/macOS:
-   ```bash
-   curl -LsSf https://astral.sh/uv/install.sh | sh
-   ```
+Windows:
+```PowerShell
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
 
-2. **Install dependencies:**
-   ```bash
-   uv sync
-   ```
+Linux/macOS:
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+#### Install dependencies
+```bash
+uv sync
+```
 
-## Build From Source
+## 📖 Build From Source
 
 Run the following command to create a single-file executable:
 
@@ -39,11 +40,17 @@ pyinstaller --onefile encryption_tool.py
 ```
 
 This will generate a standalone executable under `dist/` called `encryption_tool`.
+Your build is platform-specific. A Windows build will generate a .exe binary, and a Linux build will generate a Linux binary.
+Don't forget to give execute permissions to the binary on Linux/macOS:
 
-## Usage
+```bash
+chmod +x encryption_tool
+```
+
+## 📖 Usage
 
 See the --help option for usage instructions:
 
 ```bash
-dist/encryption_tool --help
+./encryption_tool --help
 ```
